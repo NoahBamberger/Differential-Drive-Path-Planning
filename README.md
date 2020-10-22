@@ -1,0 +1,2 @@
+# Differential-Drive-Path-Planning
+This code generates a smooth parametric path for differential drive robots based on preset waypoints including specified headings at each waypoint. The output will be the shortest possible path between two waypoints taking into account the trackwidth of the robot. This path will then be converted into speed values for n discrete points along the path for each side of the robot.
